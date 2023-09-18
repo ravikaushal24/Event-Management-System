@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Signup</title>
+  <link rel="stylesheet" href="admin_style.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h1>Admin Signup</h1>
+
+    <form action="/admin/signup" method="post">
+      <input type="text" name="name" placeholder="Name">
+      <input type="email" name="email" placeholder="Email">
+      <input type="password" name="password" placeholder="Password">
+      <select name="Category" id="Category">
+                <option value="Catering">Catering</option>
+                <option value="Florist">Florist</option>
+                <option value="Decoration">Decoration</option>
+                <option value="Lighting">Lighting</option>
+      <button type="submit">Cancel</button>
+      <button type="submit">signup</button>
+    
+    </form>
+  </div>
+</body>
+</html>
